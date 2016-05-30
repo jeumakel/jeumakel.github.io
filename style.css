@@ -68,12 +68,11 @@ section#imageSection {
 }
 section#imageSection .imgWrapper {
   width: 200px;
+  text-align: center;
 }
 
 section#imageSection img {
   padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (min-width: 600px) {
@@ -121,20 +120,4 @@ nav a:hover {
   background-color: #fff;
   color: #444;
   cursor: default;
-}
-
-@media screen and (min-width: 600px) {
-  nav li {
-    width: 80px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-
-  /* Option 1 - Display Inline */
-  nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
 }
